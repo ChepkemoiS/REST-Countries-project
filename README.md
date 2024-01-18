@@ -41,6 +41,6 @@ Your Name - Initial work - Your GitHub
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Acknowledgments
+## Acknowledgments
 Thanks to the REST Countries team for providing the public API.
 Thanks to Frontend Mentor for providing the challenge
