@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REST Countries API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>REST Countries API</h1>
+    </header>
+    <main>
+      <section id="search">
+        <input type="text" id="search-input" placeholder="Search for a country..." />
+        <button id="search-button">Search</button>
+      </section>
+      <section id="filter">
+        <label for="region-filter">Filter by region:</label>
+        <select id="region-filter">
+          <option value="all">All</option>
+          <option value="africa">Africa</option>
+          <option value="americas">Americas</option>
+          <option value="asia">Asia</option>
+          <option value="europe">Europe</option>
+          <option value="oceania">Oceania</option>
+        </select>
+      </section>
+      <section id="countries">
+        <!-- Countries will be displayed here -->
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 REST Countries API</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
