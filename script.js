@@ -9,10 +9,12 @@ const countriesSection = document.getElementById('countries');
 let countries = [];
 
 // Fetch data from the REST Countries 
-async function fetchData() {
-  const response = await fetch('https://restcountries.com/v3.1/all');
-  countries = await response.json();
-  displayCountries(countries);
+fetch('https://restcountries.com/v3.1/all')
+.then(response => response.json())
+.then data => 
+  data.forEach country => {
+    const countryDiv = document.createElement('div');
+    countryDiv.classList.add('country');
 }
 
 // Display the countries on the webpage
