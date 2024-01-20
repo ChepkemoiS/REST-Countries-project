@@ -1,6 +1,9 @@
 const searchInput = document.getElementById('search-input');
+
 const searchButton = document.getElementById('search-button');
+
 const regionFilter = document.getElementById('region-filter');
+
 const countriesSection = document.getElementById('countries');
 
 let countries = [];
