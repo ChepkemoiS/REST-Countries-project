@@ -10,7 +10,7 @@
 ### Node.js and npm installed on your machine. You can download it from https://nodejs.org/en/download/
 
 # Installing
-Clone the repository to your local machine
+# Clone the repository to your local machine
 bash
 Download
 Copy code
