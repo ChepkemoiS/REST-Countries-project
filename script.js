@@ -8,7 +8,7 @@ const countriesSection = document.getElementById('countries');
 
 let countries = [];
 
-// Fetch data from the REST Countries API
+// Fetch data from the REST Countries 
 async function fetchData() {
   const response = await fetch('https://restcountries.com/v3.1/all');
   countries = await response.json();
