@@ -11,7 +11,7 @@
 
 # Installing
 # Clone the repository to your local machine
-## bash
+bash
 Download
 Copy code
 git clone https://github.com/yourusername/rest-countries-api.git
