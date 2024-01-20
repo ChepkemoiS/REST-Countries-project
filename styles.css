@@ -21,8 +21,10 @@ body {
 }
 
 h1 {
-  text-align: center;
-  color: #333;
+  font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 60px 0;
 }
 
 .country {
