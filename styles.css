@@ -1,55 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.country {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.country:hover {
+  transform: scale(1.05);
+}
+
+.country h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.country img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Add responsive styles */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 15px;
   }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-  }
-  
-  main {
-    padding: 2rem;
-  }
-  
-  #search {
-    margin-bottom: 1rem;
-  }
-  
-  #search input {
-    padding: 0.5rem;
-    margin-right: 1rem;
-  }
-  
-  #filter {
-    margin-bottom: 2rem;
-  }
-  
-  #countries {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+
   .country {
-    width: 30%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    border: 1px solid #ccc;
-    padding: 1rem;
-    box-sizing: border-box;
+    padding: 10px;
   }
-  
-  .country img {
-    width: 100%;
-    height: auto;
-  }
-  
+
   .country h2 {
-    margin-top: 0;
+    font-size: 1.2em;
   }
-  
-  .country p {
-    margin-bottom: 0;
-  }
+}
